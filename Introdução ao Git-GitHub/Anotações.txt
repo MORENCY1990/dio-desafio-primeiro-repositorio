@@ -1,0 +1,33 @@
+Antes de mais nada, devemos baixar e instalar o Git no pc. Link para
+download: https://git-scm.com/downloads
+
+Git é um sistema de versionamento de código distríbuido utilizado para projetos de desenvolvimento de software.
+Ou seja,ele trabalha como um intermediador entre um repositório local e um remoto, onde você pode controlar e administrar as alterações e atualizações do seu código.
+Git e GitHub, são diferentes.
+
+GitHub é uma plataforma online, onde podemos compartilhar nossos repositórios com outros Devs, para que eles possam fazer alterações(melhorias) em nossos códigos.
+Git, é um software que nos permite salvar snapshots de nossos projetos ao longo do tempo.
+
+COMANDOS BÁSICOS DO GIT
+
+git init: inicializa um repositório local git;
+git status: verifica o estado dos seus arquivos;
+git add <nomeDoArquivo>: envia seu arquivo especificado para o Stage (git add * também serve);
+git add - -all: envia todos os arquivos para o Stage;
+git commit -m “tituloDoCommit: envia o que está no Stage para o HEAD;
+git remote add origin urlDoRepositorio: adiciona e indica a URL do repositório remoto em que os arquivos serão mantidos;
+git push origin master: envia os arquivos para o repositório remoto que você especificou através da URL do comando acima;
+git checkout -b <nomeDaBranch>: cria uma nova branch;
+git checkout <nomeDaBranch>: alterna para a branch especificada;
+
+COMANDOS DO TERMINAL
+
+ls - lista os arquivos ou pastas dentro do diretorio;
+cd - entra num outro diretorio;
+mkdir - cria diretório;
+mv - move as coisas;
+touch - cria arquivos;
+
+Para um maior conhecimento dos comandos ver:
+https://www.lucascaton.com.br/2018/01/07/comandos-para-o-terminal-windows-macos-e-linux
+
